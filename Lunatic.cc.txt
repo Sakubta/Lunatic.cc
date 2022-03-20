@@ -107,7 +107,7 @@ function l:CreateUI()
     v.Parent = m
     a.InputBegan:connect(
         function(w)
-            if w.KeyCode == Enum.KeyCode.Insert then
+            if w.KeyCode == Enum.KeyCode.RightShift then
                 n.Visible = not n.Visible
             end
         end
